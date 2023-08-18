@@ -10,29 +10,37 @@
     <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="todos-bg-container">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="todos-heading">Todo List</h1>
-            <h1 class="create-task-heading">
-              Create <span class="create-task-heading-subpart">Task</span>
-            </h1>
-            <input type="text" id="todoUserInput" class="todo-user-input" placeholder="Enter the Tasks need to be done"/>
-            <button class="button" id="addTodoButton">Add</button>
-            <h1 class="todo-items-heading">
-              My <span class="todo-items-heading-subpart">Tasks</span>
-            </h1>
-            <ul class="todo-items-container" id="todoItemsContainer"></ul>
-            <button class="button" id="saveTodoButton">Save</button>
-            <hr class="hrline" />
-            <footer>
-              <p>Done By: Preetham Reddy<br>
-              <a href="reddypreetham000@gmail.com">reddypreetham000@gmail.com</a></p>
-            </footer>
-          </div>
+    <h1 class="main-heading mt-4 mb-4">CALCULATOR</h1>
+    <div class="Calculator">
+        <textarea type="text" id="result" readonly></textarea>
+        <button onclick="backspace()">Backspace</button>
+        <br>
+        <div class="keypad">
+        <button onclick="clearResult()">C</button>
+        <button onclick="appendValue('(')">(</button>
+        <button onclick="appendValue(')')">)</button>
+        <button onclick="appendValue('^2')">x²</button>
+        <button onclick="appendValue('^3')">x³</button>
+        <button onclick="appendValue('^')">^</button>
+        <button onclick="appendValue('√')">√</button>
+        <button onclick="appendValue('∛')">∛</button>
+        <button onclick="appendValue('7')">7</button>
+        <button onclick="appendValue('8')">8</button>
+        <button onclick="appendValue('9')">9</button>
+        <button onclick="appendValue('/')">/</button>
+        <button onclick="appendValue('4')">4</button>
+        <button onclick="appendValue('5')">5</button>
+        <button onclick="appendValue('6')">6</button>
+        <button onclick="appendValue('*')">*</button>
+        <button onclick="appendValue('1')">1</button>
+        <button onclick="appendValue('2')">2</button>
+        <button onclick="appendValue('3')">3</button>
+        <button onclick="appendValue('-')">-</button>
+        <button onclick="appendValue('0')">0</button>
+        <button onclick="appendValue('.')">.</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="appendValue('+')">+</button>
         </div>
-      </div>
     </div>
   </body>
 </html>

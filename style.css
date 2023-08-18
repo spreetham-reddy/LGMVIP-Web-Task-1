@@ -1,131 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
-.todos-bg-container {
-  background-color: #d4f1ff;
-  height: 100vh;
+.main-heading{
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(150, 19, 0);
 }
+.Calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:rgb(78, 78, 78);
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  .Calculator textarea {
+    border-color: rgb(72, 0, 0);
+    width: 90%; 
+    resize: none;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    font-size:24px;
+    padding: 5px;
+    border-width: thick;
+    border-radius: 10px;;
+  }
+  .Calculator button{
+    
+    border-radius:4px;
+    cursor: pointer;
+    padding: 11px;
+    font-size: 19px;
+  }
 
-.todos-heading {
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 46px;
-  font-weight: 500;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.create-task-heading {
-  font-family: "Roboto";
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.create-task-heading-subpart {
-  font-family: "Roboto";
-  font-size: 32px;
-  font-weight: 500;
-}
-
-.todo-items-heading {
-  font-family: "Roboto";
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.todo-items-heading-subpart {
-  font-family: "Roboto";
-  font-size: 32px;
-  font-weight: 500;
-}
-
-.todo-items-container {
-  margin: 0px;
-  padding: 0px;
-}
-
-.todo-item-container {
-  margin-top: 15px;
-}
-
-.todo-user-input {
-  background-color: #AEB1B4;
-  color: #1a150e;
-  opacity: 0.7;
-  width: 100%;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #e4e7eb;
-  border-radius: 10px;
-  margin-top: 10px;
-  padding: 15px;
-}
-
-.button {
-  color: white;
-  background-color: black;
-  font-family: "Roboto";
-  font-size: 18px;
-  border-width: 0px;
-  border-radius: 4px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-::placeholder{
-  color: white;
-}
-
-.hrline{
-  margin-top: 70px;
-}
-
-.label-container {
-  background-color: #808080;
-  width: 100%;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #096f92;
-  border-right: none;
-  border-top: none;
-  border-bottom: none;
-  border-radius: 4px;
-}
-
-.checkbox-input {
-  width: 20px;
-  height: 20px;
-  margin-top: 12px;
-  margin-right: 12px;
-}
-
-.checkbox-label {
-  color: #ffffff;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: 400;
-  width: 82%;
-  margin: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 5px;
-}
-
-.delete-icon-container {
-  text-align: right;
-  width: 18%;
-}
-
-.delete-icon {
-  color: white;
-  padding: 15px;
-}
-
-.checked {
-  text-decoration: line-through;
-}
+  .Calculator button:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  .Calculator .keypad {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    
+  }
+  
+  .Calculator .keypad button {
+    font-size: 18px;
+    border-radius:4px;
+    width: 100%;
+    padding: 10px;
+  }
