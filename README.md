@@ -1,2 +1,2 @@
-# LGMVIP-Web-Task-1
+# TodoList Website
 Repository for Todo List Website
