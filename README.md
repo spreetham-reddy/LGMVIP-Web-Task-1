@@ -45,8 +45,14 @@ This Todo List application is a simple and interactive way to manage your tasks.
 - **Functionality**: Manages task addition, deletion, and status updates. Interacts with local storage to persist tasks.
 - **Event Handling**: Listens for user actions like adding, deleting, and saving tasks.
 
-
 ## Contact
 
-For questions or feedback, please contact [Your Name](mailto:your-email@example.com).
+For questions, feedback, or suggestions, please contact:
+
+- **Email**: preethamreddy141@gmail.com
+- **GitHub**: [spreetham-reddy](https://github.com/spreetham-reddy)
+
+#
+
+Thank you for exploring the Todo List Application ! We hope you find it useful and engaging.
 
